@@ -76,8 +76,8 @@ for nn = 1:Nrx
     end
 end
 
-Grx.antennaResponse = Anttx;
-Grx.minResponse = min(min(min(abs(Anttx))));
+Grx.antennaResponse = Antrx;
+Grx.minResponse = min(min(min(abs(Antrx))));
 Grx.azimuthRange = Phi;
 Grx.elevationRange = Theta; 
 Grx.dangle = 1/180*pi;
